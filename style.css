@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata';
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.logo {
+    margin-left: 125px;
+    height: 35px;
+    width: 200px;
+}
+
+nav {
+    margin-right: 125px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.first {
+    background-image: url(imagens/desktop/image-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.first-content {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 125px;
+    height: 300px;
+    width: 675px;
+    border: 2px solid white;
+}
+
+.first-content h1 {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 80px;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+}
+
+.second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.second-content {
+    margin-top: 85px;
+    height: 500px;
+    width: 1084px;
+    margin-bottom: 100px;
+}
+
+.second-image {
+    position: absolute;
+    width: 650px;
+    z-index: 1;
+}
+
+.second-image img {
+    display: block;
+    width: 100%;
+}
+
+.second-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 47%;
+    top: 30%;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    z-index: 2;  
+}
+
+.second-text {
+    width: 75%;
+}
+
+.second-text h1 {
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.second-text p {
+    font-size: 15px;
+    color: hsl(0, 0%, 55%);
+}
+
+.third-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.center-title {
+    width: 1084px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-title h1{
+    font-size: 40px;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+}
+
+.center-title a {
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid hsl(0, 0%, 41%);
+    padding: 8px 35px;
+}
+
+.center-title a:hover {
+    background-color: black;
+    color: white;
+    transition: all 500ms ease;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+}
+
+.third-content-box {
+    width: 1084px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.third-image {
+    position: relative;
+    width: 256px;
+    height: 450px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    background-color: rgba(0, 0, 0, 0.041);
+    letter-spacing: 1px;
+    font-size: 32px;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+}
+
+.third-image:hover img{
+    opacity: 0.3;
+    transition: all 500ms ease;
+}
+
+.third-image:hover .image-text {
+    color: black;
+    transition: all 500ms ease;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 1084px;
+}
+
+.first-footer, .second-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-footer {
+    margin: 30px 0;
+}
+
+.second-footer {
+    margin-bottom: 25px;
+}
+
+.logo-footer {
+    height: 24px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.second-footer p {
+    color: hsl(0, 0%, 55%);
+    font-size: 14px;
+}
+
+
+
