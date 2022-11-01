@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Loopstudios</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <img class="logo" src="imagens/logo.svg" alt="logo">
-        <nav>
+        <img id="burguer" class="hamburguer" onclick="clickMenu()" src="imagens/icon-hamburger.svg" alt="">
+        <nav id="itens">
             <a href="">About</a>
             <a href="">Careers</a>
             <a href="">Events</a>
             <a href="">Products</a>
             <a href="">Support</a>
         </nav>
-        <img class="hamburguer" src="imagens/icon-hamburger.svg" alt="">
     </header>
     <main>
         <section class="first">
@@ -25,7 +26,7 @@
                 <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
             </div>
         </section>
-        <section class="second">
+        <section id="second" class="second">
             <div class="second-content">
                 <div class="second-image">
                     <img src="imagens/desktop/image-interactive.jpg" alt="">
@@ -38,13 +39,13 @@
                 </div>
             </div>
         </section>
-        <div class="third-title">
+        <div id="thirdtitle" class="third-title">
             <div class="center-title">
                 <h1>OUR CREATIONS</h1>
                 <a href="">SEE ALL</a>
             </div>    
         </div>
-        <section class="third">
+        <section id="third" class="third">
             <div class="third-content-box">
                 <a class="third-image" href="">
                     <picture>
@@ -105,7 +106,10 @@
             </div>
         </section>
     </main>
-    <footer>
+    <div id="seeall" class="see-all-bottom">
+        <a href="">SEE ALL</a>
+    </div> 
+    <footer id="footer">
         <div class="center">
             <div class="first-footer">
                 <img class="logo-footer" src="imagens/logo.svg" alt="">
@@ -128,5 +132,6 @@
             </div>
         </div>      
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
